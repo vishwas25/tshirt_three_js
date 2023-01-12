@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.webgl{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav{
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    /* display: flex; */
+    justify-content:space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+
+
+
+button{
+    width: 4rem;
+}
+.p{
+    background-color: pink;
+}
+.w{
+    background-color: white;
+}
+.r{
+    background-color: red;
+}
+.b{
+    background-color: blue;
+}
+.g{
+    background-color: green;
+}
+.y{
+    background-color: yellow;
+}
+
+
+.title{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 1.5rem;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -75%);
+}
+
+.author{
+    color: aqua;
+    padding-left: 85%;
+}

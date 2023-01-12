@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>3d model loader</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js"
+            }
+        }
+    </script>
+</head>
+<body>
+    <canvas class = "webgl"></canvas>
+    <script type="module" src="index.js"></script>
+
+    <nav>
+        <a>Choose Color</a><br><br>
+
+        <h5 class="author">Creater - Vishwas Garade</h5>
+        
+          <button class="p" onclick="pink()">Pink  </button>
+          <button class="w" onclick="white()">White </button>
+          <button class="r" onclick="red()">Red   </button>
+          <button class="b" onclick="blue()">Blue  </button>
+          <button class="g" onclick="green()">Green </button>
+          <button class="y" onclick="yellow()">Yellow</button>
+        
+    </nav>
+
+    
+    <h3 class="title">Give it a spin</h3>
+
+    
+</body>
+</html>
